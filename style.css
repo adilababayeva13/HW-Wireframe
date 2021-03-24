@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/2001193.jpg) ;
+    
+}
+
+.style1{
+    margin: 0px auto;
+    width: 70% ;
+}
+
+header ,nav , footer{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+    color:black;
+    background-color: burlywood;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container section,.flex-container aside {
+    background-color:papayawhip;
+    height: 300px;
+    margin:1px;
+    width: 49%;
+    box-sizing: border-box;
+    padding: 10 px;
+
+}
+
+article {
+    margin: 10px;
+    padding-top: 0px;
+    background-color: yellow;
+    height:150px;
+
+}
+aside {
+  display: flex;
+  justify-self: center;
+  padding: 15px;
+}
+
