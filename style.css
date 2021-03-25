@@ -27,6 +27,7 @@ header ,nav , footer{
     width: 49%;
     box-sizing: border-box;
     padding: 10 px;
+    text-align: center;
 
 }
 
@@ -35,11 +36,12 @@ article {
     padding-top: 0px;
     background-color: yellow;
     height:150px;
+    text-align: center;
 
 }
 aside {
   display: flex;
   justify-self: center;
-  padding: 15px;
+  padding: 40px;
 }
 
